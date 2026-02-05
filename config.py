@@ -49,7 +49,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/sexyxcoders/Fix",
+    "https://github.com/nonsecular/Fix/blob/master/config.py",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -94,19 +94,18 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/4chngx.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/ch1iev.jpg")
-PLAYLIST_IMG_URL = "https://files.catbox.moe/ard90z.jpg"
-STATS_IMG_URL = getenv("STATS_IMG_URL", "https://files.catbox.moe/dn29yj.jpg")
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/ard90z.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/ard90z.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/bvmqyo.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/ard90z.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/ard90z.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/bvmqyo.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/ard90z.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/ard90z.jpg"
-
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/lvtd1a.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/4ansts.jpg")
+PLAYLIST_IMG_URL = "https://files.catbox.moe/419n5s.jpg"
+STATS_IMG_URL = getenv("STATS_IMG_URL", "https://files.catbox.moe/ztfuxp.jpg")
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/419n5s.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/419n5s.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/419n5s.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/419n5s.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/419n5s.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/419n5s.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/419n5s.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/419n5s.jpg"
 
 def time_to_seconds(time):
     stringt = str(time)
